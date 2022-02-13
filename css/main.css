@@ -15,11 +15,11 @@
 /* =================================== */
 
 body {
-    background-color: #fff;
+    background-color: rgb(0, 0, 0);
     font-family: 'Open Sans', sans-serif;
     line-height: 24px;
     font-size: 16px;
-    color: #818181;
+    color: #ffffff;
 }
 
 figure, p, address {
@@ -50,7 +50,7 @@ a, a:hover, a:focus, .btn:focus {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
     font-family: 'Open Sans', sans-serif;
-    color: #252525;
+    color: #ffffff;
 }
 
 main > section {
@@ -65,20 +65,20 @@ main > section {
 }
 
 .btn-blue {
-    background-color: rgba(0,158,227, 0.78);
+    background-color: rgba(255, 208, 0, 0.78);
     box-shadow: 0 -2px 0 rgba(0, 0, 0, 0.15) inset;
     padding: 15px 55px;
     color: #fff;
 }
 
 .btn-border {
-    border: 2px solid #fff;
-    color: #fff;
+    border: 2px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
     padding: 12px 35px;
 }
 
 .bg-blue {
-    background-color: #009EE3;
+    background-color: #faf604;
 }
 
 /* Sweep To Right */
@@ -119,7 +119,7 @@ main > section {
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background: #fff;
+	background: rgb(3, 3, 3);
 	
 	-webkit-transform: scaleX(0);
 	   -moz-transform: scaleX(0);
@@ -148,7 +148,7 @@ main > section {
 }
 
 .btn-effect:hover, .btn-effect:focus, .btn-effect:active {
-	color: #009EE3;
+	color: #faea07;
 }
 
 .btn-effect:hover:before, .btn-effect:focus:before, .btn-effect:active:before {
@@ -163,7 +163,7 @@ main > section {
 }
 
 .sec-title.white {
-    color: #fff;
+    color: rgb(2, 2, 2);
 }
 
 .sec-title h2 {
@@ -175,11 +175,11 @@ main > section {
 }
 
 .sec-title.white h2 {
-    color: #fff;
+    color: rgb(7, 7, 7);
 }
 
 .sec-title h2:after {
-    border-bottom: 1px solid #009ee3;
+    border-bottom: 1px solid #f8fc03;
     content: "";
     display: block;
     left: 45%;
@@ -494,14 +494,14 @@ h1.navbar-brand {
 }
 
 .fancybox-next span {
-    background: url("../img/right.png") no-repeat scroll center center #009ee3;
+    background: url("../img/right.png") no-repeat scroll center center #f8fc03;
     height: 50px;
     width: 50px;
     right: 0;
 }
 
 .fancybox-prev span {
-    background: url("../img/left.png") no-repeat scroll center center #009ee3;
+    background: url("../img/left.png") no-repeat scroll center center #f8fc03;
     height: 50px;
     width: 50px;
     left: 0;
@@ -512,12 +512,12 @@ h1.navbar-brand {
 ==================================================================*/
 
 #about {
-    background-color: #009EE3;
-    color: rgb(15, 1, 1);
+    background-color: #f8fc03;
+    color: rgb(3, 3, 3);
 }
 
 #about h3 {
-    color: #fff;
+    color: rgb(0, 0, 0);
     margin: 0 0 35px;
     text-transform: uppercase;
 }
@@ -527,7 +527,7 @@ h1.navbar-brand {
 }
 
 #about .welcome-block img {
-    border: 3px solid #fff;
+    border: 3px solid rgb(250, 250, 250);
     border-radius: 50%;
     margin-right: 35px;
     max-width: 100px;
@@ -540,7 +540,7 @@ h1.navbar-brand {
 }
 
 .owl-buttons {
-    border: 2px solid #fff;
+    border: 2px solid rgb(0, 0, 0);
     display: inline-block;
     float: right;
     padding: 1px 8px 5px;
@@ -592,9 +592,9 @@ h1.navbar-brand {
 }
 
 .service-item:hover .service-icon {
-    border: 3px solid #009ee3;
+    border: 3px solid #f8fc03;
     margin-bottom: 20px;
-    color: #009ee3;
+    color: #f8fc03;
 }
 
 .service-icon i {
@@ -691,7 +691,7 @@ ul.external li a {
 }
 
 ul.external li a:hover {
-    background-color: #009EE3;
+    background-color: #f8fc03;
     color: #fff;
 }
 
@@ -733,11 +733,11 @@ ul.external li a:hover {
 }
 
 #testimonials .sec-title h2:after {
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid rgb(0, 0, 0);
 }
 
 #testimonials .overlay {
-    background-color: rgba(15,155,224, 0.78);
+    background-color: rgba(255,255,0);
     padding: 70px 0 40px;
 }
 
@@ -748,7 +748,7 @@ ul.external li a:hover {
 }
 
 .testimonial-item img {
-    border: 3px solid #fff;
+    border: 3px solid rgb(0, 0, 0);
     border-radius: 50%;
     display: inline-block;
     height: auto;
@@ -794,17 +794,17 @@ ul.external li a:hover {
 }
 
 #testimonials .owl-buttons {
-    border: 2px solid #fff;
+    border: 2px transparent rgb(251, 255, 0);
     float: inherit;
 }
 
 #testimonials .owl-prev:hover,
 #testimonials .owl-next:hover {
-    color: #fff;
+    color: rgb(0, 0, 0);
 }
 
 .price-table {
-    border: 1px solid #e3e3e3;
+    border: 1px solid #000000;
 }
 
 .price-table.featured {
@@ -822,7 +822,7 @@ ul.external li a:hover {
 }
 
 .price-table .value {
-    background-color: #f8f8f8;
+    background-color: #000000;
     color: #727272;
     padding: 20px 0;
 
@@ -834,8 +834,8 @@ ul.external li a:hover {
 }
 
 .price-table.featured .value {
-    background-color: #009EE3;
-    color: #fff;
+    background-color: #f8fc03;
+    color: rgb(0, 0, 0);
 }
 
 .price-table .value span {
@@ -865,7 +865,7 @@ ul.external li a:hover {
 }
 
 .price-table ul li {
-    border-top: 1px solid #e3e3e3;
+    border-top: 1px solid #f8fc03;
     display: block;
     padding: 25px 0;
 
@@ -883,7 +883,7 @@ ul.external li a:hover {
 
 .price-table.featured ul li:last-child,
 .price-table ul li:last-child:hover {
-    background-color: #009EE3;
+    background-color: #f8fc03;
 }
 
 .price-table.featured ul li:last-child a,
@@ -938,8 +938,8 @@ ul.external li a:hover {
 }
 
 .social-button li a:hover {
-    color: #008ECC;
-    border: 2px solid #008ECC;
+    color: #f8fc03;
+    border: 2px solid #f8fc03;
 }
 
 
@@ -970,7 +970,7 @@ textarea.form-control {
 }
 
 #submit:before {
-  background-color: #0A85BB;
+  background-color: #f8fc03;
 }
 
 #submit.btn-effect:after {
@@ -978,7 +978,7 @@ textarea.form-control {
 }
 
 .contact-details h3 {
-    border-bottom: 1px solid #008ecc;
+    border-bottom: 1px solid #f8fc03;
     font-weight: 700;
     margin-bottom: 15px;
     padding-bottom: 15px;
@@ -1120,7 +1120,7 @@ textarea.form-control {
 }
 
 .footer-social ul li a:hover {
-    color: #009EE3;
+    color: #f8fc03;
 }
 
 .footer-content > p {
